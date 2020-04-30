@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding:0;
+            margin:0;
+        }
+        img{
+            width: 100%;
+        }
+        .container {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /*sm*/
+        @media (min-width: 576px) {
+            .container {
+                width: 540px;
+            }
+        }
+
+        /*md*/
+        @media (min-width: 768px) {
+            .container {
+                width: 720px;
+            }
+        }
+
+        /*lg*/
+        @media (min-width: 992px) {
+            .container {
+                width: 960px;
+            }
+        }
+
+        /*xl*/
+        @media (min-width: 1200px) {
+            .container {
+                width: 1140px;
+            }
+        }
+
+        .row {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5,
+        .col-6,
+        .col-7,
+        .col-8,
+        .col-9,
+        .col-10,
+        .col-11,
+        .col-12 {
+            position: relative;
+            padding-left: 15px;
+            padding-right: 15px;
+            float: left;
+        }
+
+        .col-1 {
+            width: 8.33333333%;
+        }
+
+        .col-2 {
+            width: 16.66666667%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33333333%;
+        }
+
+        .col-5 {
+            width: 41.66666667%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33333333%;
+        }
+
+        .col-8 {
+            width: 66.66666667%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33333333%;
+        }
+
+        .col-11 {
+            width: 91.66666667%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+        .clearfix:after,
+        .clearfix:before,
+        .container:after,
+        .container:before,
+        .row:after,
+        .row:before{
+            display: table;
+            content:'';
+        }
+        .clearfix:after,
+        .container:after,
+        .row:after
+        {
+            clear: both;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <b>
+                <font size="5">Welcome to Your MeasureSquare Mobile Trial!</font>
+            </b>
+        </div>
+        <div class="row">
+        <p style="text-align: center;font-size: large;">The modern way to on-site measure, estimate and quote.</p>
+    </div>
+        <div class="row">
+            <img alt="Measure Square" src="1.png">
+            <!-- <img src="cid:m2Img1" alt="Measure Square" width="100%"> -->
+        </div>
+        <p class="row" style="font-size:large; text-decoration: underline; text-align: center;">
+            Click on the images below to check out our free learning content:
+        </p>
+
+        <div class="row">
+           
+                <div class="col-4">
+                    <a href="https://www.youtube.com/watch?v=Oyui8CTqcPk&list=PLTdAHW7WN17tWFNtuA9NIHEFv30tV4BsJ&index=4"
+                        target="_blank">
+                        <img src="2.png" alt="YouTube Tutorials">
+                        <!-- <img src="cid:m2Img2" alt="" width="100%"> -->
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="https://www.udemy.com/course/measuresquare-8-measure-estimating-for-commercial-flooring/"
+                        target="_blank">
+                        <img src="3.png" alt="Udemy course">
+                        <!-- <img src="cid:m2Img3" alt="Udemy course" width="100%"> -->
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="https://desk.zoho.com/portal/measuresquare/kb/articles/table-of-contents-for-measuresquare-8"
+                        target="_blank">
+                        <img src="4.png" alt="Articles">
+                        <!-- <img src="cid:m2Img4" alt="Articles" width="100%"> -->
+                    </a>
+                </div>
+           
+        </div>
+
+        <p class="row">
+            We also offer a free online demo! Let us show you how powerful software can level up your estimations!
+        </p>
+
+        <div class="row">
+            <a href="https://calendly.com/measure-square-customer-service-team/measuresquare-mobile-demo">
+                <input type="button" value="Sign-up for a Free Demo" class="btn btn-success">
+            </a>
+        </div>
+        <div class="row">
+            <p style="font-size:large;">
+                For any questions, email <a href="mailto:support@measuresquare.com"
+                    target="_blank">support@measuresquare.com</a>,
+                or call us directly at 626-683-9188 Mon - Fri 7am to 5pm PST.
+            </p>
+        </div>
+        <div class="row" style="background-color: rgb(229,229,229);">
+            <font color="#333333" size="2">221 East Walnut Street, Pasadena, Ca 91101.</font>
+        </div>
+    </div>
+</body>
+
+</html>
